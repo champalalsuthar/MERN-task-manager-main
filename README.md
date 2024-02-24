@@ -1,6 +1,6 @@
-# MERN Task Manager
+# MERN Task Management Application
 
-A MERN application for task-management.
+A MERN application for task management.
 
 ## Table of Contents
 
@@ -95,21 +95,31 @@ Following are the major dev-dependencies of the project:
 
 ## Installation and Setup
 
-1. Install all the dependencies
+1. Clone Repository
+   ```sh
+git clone https://github.com/champalalsuthar/MERN-task-manager-main.git
+   ```
+
+2. Repository Directory
+   ```sh
+cd MERN-task-manager-main
+   ```
+
+3. Install all the dependencies
 
    ```sh
    npm run install-all
    ```
 
-2. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
+4. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
 
-3. Start the application
+5. Start the application
 
    ```sh
    npm run dev
    ```
 
-4. Go to http://localhost:3000
+6. Go to http://localhost:3000
 
 ## Backend API
 
