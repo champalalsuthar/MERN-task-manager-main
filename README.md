@@ -4,20 +4,57 @@ A MERN application for task management.
 
 ## Table of Contents
 
+- [Installation and setup](#installation-and-setup)
+- [Prerequisites](#prerequisites)
 - [Features](#features)
 - [Tools and Technologies](#tools-and-technologies)
 - [Dependencies](#dependencies)
 - [Dev-dependencies](#dev-dependencies)
-- [Prerequisites](#prerequisites)
-- [Installation and setup](#installation-and-setup)
 - [Backend API](#backend-api)
 - [frontend pages](#frontend-pages)
 - [npm scripts](#npm-scripts)
 - [Useful Links](#useful-links)
 - [Contact](#contact)
 
-## Features
 
+
+## Installation and Setup
+
+1. Clone Repository
+
+   ```sh
+   git clone https://github.com/champalalsuthar/MERN-task-manager-main.git
+   ```
+
+2. Change Directory 
+   ```sh
+   cd MERN-task-manager-main
+   ```
+
+3. Install all the dependencies
+
+   ```sh
+   npm run install-all
+   ```
+
+4. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
+
+5. Start the application
+
+   ```sh
+   npm run dev
+   ```
+
+6. Go to http://localhost:3000
+
+## Prerequisites
+
+- Node.js must be installed on the system.
+- You should have a MongoDB database.
+- You should have a code editor (preferred: VS Code)
+
+
+## Features
 ### User-side features
 
 - Login 
@@ -87,39 +124,6 @@ Following are the major dev-dependencies of the project:
 - nodemon
 - concurrently
 
-## Prerequisites
-
-- Node.js must be installed on the system.
-- You should have a MongoDB database.
-- You should have a code editor (preferred: VS Code)
-
-## Installation and Setup
-
-1. Clone Repository
-   ```sh
-git clone https://github.com/champalalsuthar/MERN-task-manager-main.git
-   ```
-
-2. Repository Directory
-   ```sh
-cd MERN-task-manager-main
-   ```
-
-3. Install all the dependencies
-
-   ```sh
-   npm run install-all
-   ```
-
-4. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
-
-5. Start the application
-
-   ```sh
-   npm run dev
-   ```
-
-6. Go to http://localhost:3000
 
 ## Backend API
 
