@@ -159,7 +159,7 @@ Inside backend folder:
 
 - This project
 
-  - Github Repo: 
+  - Github Repo: https://github.com/champalalsuthar/MERN-task-manager-main
 
 ## Contact
 
